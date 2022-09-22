@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit/Larsseit-Bold.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+@font-face {
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit/Larsseit-Medium.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+@font-face {
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit/Larsseit-Regular.woff2") format("woff2"), url("../fonts/Larsseit/Larsseit-Regular.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato/Lato-Black.woff2") format("woff2"), url("../fonts/Lato/Lato-Black.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato/Lato-Bold.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato/Lato-Regular.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+body {
+    font-family: "Roboto";
+}
+
+#title-3 {
+    font-family: "Larsseit";
+    font-weight: 700;
+    color: rgb(155, 10, 10);
+}
+
+.title-2 {
+    color: rgb(83, 8, 153);
+    font-weight: 900;
+}
+
+.title-2.two-oars ~ p {
+    color: blue;
+}
+.list * {
+    font-family: "Lato";
+    color: rgb(189, 15, 15);
+}
+
+.list .list2 {
+font-weight: 700;
+}
+
+p.one {
+    color: rgb(97, 26, 26);
+}
+.one.two {
+color: rgb(35, 3, 65);
+}
+
+.myself > p{
+    color: rgb(116, 52, 6);
+}
+.answers p {
+    color: rgb(22, 90, 67);
+}
+.think,
+.do {
+    font-weight: 700;
+}
+
+.footer h5 {
+    color: blue;
+}
+
+.title-footer + h5 {
+    color: rgb(4, 158, 56);
+}
